@@ -1,0 +1,33 @@
+services:
+  appointment:
+    image: appointment
+    build:
+      context: ./Appointment-service
+      dockerfile: Dockerfile
+    ports:
+      - 6101:6101 # hostPort:containerPort
+    env_file:
+      - ./Appointment-service/.env
+    container_name: appointment-container
+
+  document:
+    image: document
+    build:
+      context: ./Document-service
+      dockerfile: Dockerfile
+    ports:
+      - "6102:6102"
+    env_file:
+      - ./Document-service/.env
+    container_name: document-container
+    
+  organization:
+    image: organization
+    build:
+      context: ./Organization-service
+      dockerfile: Dockerfile
+    ports:
+      - "6100:6100"
+    env_file:
+      - ./Organization-service/.env
+    container_name: organization-container

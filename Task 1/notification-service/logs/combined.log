@@ -1,0 +1,104 @@
+2025-05-24T09:38:08.152Z [INFO] Connected to MongoDB
+2025-05-24T09:38:31.999Z [INFO] Connected to MongoDB
+2025-05-24T09:38:41.472Z [INFO] Connected to MongoDB
+2025-05-24T09:39:16.493Z [INFO] Connected to MongoDB
+2025-05-24T09:43:50.656Z [INFO] Connected to MongoDB
+2025-05-24T09:43:54.626Z [INFO] Connected to MongoDB
+2025-05-24T09:43:56.891Z [INFO] Connected to MongoDB
+2025-05-24T09:43:59.016Z [INFO] Connected to MongoDB
+2025-05-24T09:46:03.165Z [INFO] Connected to MongoDB
+2025-05-24T09:46:31.099Z [INFO] Connected to MongoDB
+2025-05-24T09:46:46.579Z [ERROR] Error handling stock update:
+2025-05-24T09:47:15.143Z [INFO] Connected to MongoDB
+2025-05-24T09:47:32.217Z [INFO] Connected to MongoDB
+2025-05-24T09:47:34.041Z [INFO] Connected to MongoDB
+2025-05-24T09:55:14.197Z [INFO] Connected to MongoDB
+2025-05-24T09:55:15.467Z [INFO] Connected to MongoDB
+2025-05-24T09:55:19.054Z [INFO] Connected to MongoDB
+2025-05-24T09:55:24.471Z [INFO] Connected to MongoDB
+2025-05-24T09:55:25.752Z [INFO] Connected to MongoDB
+2025-05-24T10:04:06.969Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:08.276Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:08.940Z [INFO] Connected to MongoDB
+2025-05-24T10:04:34.805Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:35.531Z [INFO] Connected to MongoDB
+2025-05-24T10:04:36.156Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:36.872Z [INFO] Connected to MongoDB
+2025-05-24T10:04:42.331Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:43.022Z [INFO] Connected to MongoDB
+2025-05-24T10:04:44.018Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:44.716Z [INFO] Connected to MongoDB
+2025-05-24T10:04:48.663Z [INFO] Notification service running on port 5101
+2025-05-24T10:04:49.346Z [INFO] Connected to MongoDB
+2025-05-24T10:13:11.645Z [INFO] Notification service running on port 5101
+2025-05-24T10:13:12.709Z [INFO] Connected to MongoDB
+2025-05-24T10:14:07.894Z [INFO] Notification service running on port 5101
+2025-05-24T10:14:08.573Z [INFO] Connected to MongoDB
+2025-05-24T10:14:49.058Z [INFO] Notification service running on port 5101
+2025-05-24T10:14:49.804Z [INFO] Connected to MongoDB
+2025-05-24T10:14:50.580Z [INFO] Notification service running on port 5101
+2025-05-24T10:14:51.308Z [INFO] Connected to MongoDB
+2025-05-24T10:14:53.415Z [INFO] Notification service running on port 5101
+2025-05-24T10:14:54.211Z [INFO] Connected to MongoDB
+2025-05-24T10:14:56.593Z [INFO] Notification service running on port 5101
+2025-05-24T10:14:57.289Z [INFO] Connected to MongoDB
+2025-05-24T10:14:59.379Z [INFO] Notification service running on port 5101
+2025-05-24T10:15:00.099Z [INFO] Connected to MongoDB
+2025-05-24T10:15:28.855Z [INFO] Notification service running on port 5101
+2025-05-24T10:15:29.731Z [INFO] Connected to MongoDB
+2025-05-24T10:30:09.052Z [INFO] Notification service running on port 5101
+2025-05-24T10:30:10.095Z [INFO] Connected to MongoDB
+2025-05-24T10:30:54.270Z [INFO] Notification service running on port 5101
+2025-05-24T10:30:54.974Z [INFO] Connected to MongoDB
+2025-05-24T10:30:59.383Z [INFO] Notification service running on port 5101
+2025-05-24T10:31:00.124Z [INFO] Connected to MongoDB
+2025-05-24T10:32:14.519Z [INFO] Notification service running on port 5101
+2025-05-24T10:32:15.573Z [INFO] Connected to MongoDB
+2025-05-24T10:33:21.155Z [INFO] Client connected: _AmPtMGmsdSkPZCyAAAC
+2025-05-24T10:35:19.831Z [INFO] Notification service running on port 5101
+2025-05-24T10:35:20.698Z [INFO] Client connected: rtzKq1uquTYlBmVLAAAB
+2025-05-24T10:35:21.175Z [INFO] Connected to MongoDB
+2025-05-24T10:37:12.554Z [INFO] Client disconnected: rtzKq1uquTYlBmVLAAAB
+2025-05-24T11:37:50.337Z [INFO] Client connected: -jMCvlbzvDMWE2dWAAAD
+2025-05-24T11:53:40.285Z [INFO] Notification service running on port 5101
+2025-05-24T11:53:41.104Z [INFO] Client connected: EGWf3AulEO-XMgdIAAAB
+2025-05-24T11:54:10.640Z [ERROR] MongoDB connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+2025-05-24T11:55:18.653Z [INFO] Notification service running on port 5101
+2025-05-24T11:55:19.806Z [INFO] Connected to MongoDB
+2025-05-24T11:55:23.091Z [INFO] Client connected: z1-pUujPOnpwetxEAAAB
+2025-05-24T11:57:44.747Z [INFO] Notification service running on port 5101
+2025-05-24T11:57:44.925Z [INFO] Client connected: xDfeuTrvmUQ-mZZnAAAB
+2025-05-24T11:57:46.775Z [INFO] Notification service running on port 5101
+2025-05-24T11:57:47.967Z [INFO] Connected to MongoDB
+2025-05-24T11:57:48.096Z [INFO] Client connected: zeHZ4PWcyOAR9ZPyAAAB
+2025-05-24T11:57:58.920Z [INFO] Notification service running on port 5101
+2025-05-24T11:57:59.108Z [INFO] Client connected: O6Lbx0vx474C8sRpAAAB
+2025-05-24T11:57:59.714Z [INFO] Connected to MongoDB
+2025-05-24T11:58:03.966Z [INFO] Notification service running on port 5101
+2025-05-24T11:58:04.831Z [INFO] Connected to MongoDB
+2025-05-24T11:58:05.116Z [INFO] Client connected: fRTjyk9dOCUZpVXCAAAB
+2025-05-24T12:12:35.964Z [INFO] Client disconnected: fRTjyk9dOCUZpVXCAAAB
+2025-05-24T12:12:36.310Z [INFO] Client connected: hAbZcjy2geSP9s8FAAAE
+2025-05-24T12:13:28.142Z [INFO] Notification service running on port 5101
+2025-05-24T12:13:29.233Z [INFO] Connected to MongoDB
+2025-05-24T12:13:30.100Z [INFO] Client connected: r17CGT6Z4_tU2zD6AAAB
+2025-05-24T12:35:44.678Z [INFO] Notification service running on port 5101
+2025-05-24T12:35:45.011Z [INFO] Client connected: jSNahOJ6tL_6uNXRAAAB
+2025-05-24T12:35:45.897Z [INFO] Connected to MongoDB
+2025-05-24T13:02:39.163Z [INFO] Notification service running on port 5101
+2025-05-24T13:02:40.107Z [INFO] Client connected: pHLG3sIHNKt8_9BPAAAB
+2025-05-24T13:02:40.469Z [INFO] Connected to MongoDB
+2025-05-24T13:03:19.674Z [INFO] Notification service running on port 5101
+2025-05-24T13:03:20.669Z [INFO] Connected to MongoDB
+2025-05-24T13:03:21.082Z [INFO] Client connected: 7soWNDqyaTUQwPXxAAAB
+2025-05-24T13:03:47.478Z [INFO] Notification service running on port 5101
+2025-05-24T13:03:47.626Z [INFO] Client connected: Dey7ya2Vvw5PcEJKAAAB
+2025-05-24T13:03:48.662Z [INFO] Connected to MongoDB
+2025-05-24T13:23:04.740Z [INFO] Notification service running on port 5101
+2025-05-24T13:23:05.884Z [INFO] Connected to MongoDB
+2025-05-24T13:23:07.087Z [INFO] Client connected: rZ5y3Rjxcw_T9GqWAAAB
+2025-05-24T14:16:04.759Z [INFO] Client disconnected: rZ5y3Rjxcw_T9GqWAAAB
+2025-05-24T14:18:01.206Z [INFO] Client connected: s5200DyN7R-V7VIQAAAD
+2025-05-24T15:22:27.223Z [INFO] Notification service running on port 5101
+2025-05-24T15:22:28.044Z [INFO] Connected to MongoDB
+2025-05-24T15:22:29.098Z [INFO] Client connected: ycaQ9O3Mbtp56BA5AAAB

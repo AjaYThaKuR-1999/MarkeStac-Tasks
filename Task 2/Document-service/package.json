@@ -1,0 +1,25 @@
+{
+  "name": "document-service",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ajay",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "docusign-esign": "^8.1.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0",
+    "morgan": "^1.10.0",
+    "puppeteer": "^24.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

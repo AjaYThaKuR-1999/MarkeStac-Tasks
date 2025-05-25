@@ -1,0 +1,22 @@
+services:
+  inventory:
+    image: inventory
+    build:
+      context: ./inventory-service
+      dockerfile: Dockerfile
+    ports:
+      - 5100:5100 # hostPort:containerPort
+    env_file:
+      - ./inventory-service/.env
+    container_name: inventory-container
+
+  notification:
+    image: notification
+    build:
+      context: ./notification-service
+      dockerfile: Dockerfile
+    ports:
+      - "5101:5101"
+    env_file:
+      - ./notification-service/.env
+    container_name: notification-container
