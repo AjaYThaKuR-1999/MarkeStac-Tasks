@@ -26,6 +26,12 @@ When you're done, you can stop and remove the running containers using:
 
 docker compose down
 
+## Deployment Guide: AWS EC2 Setup and Configuration
+- To deploy the application on AWS EC2, I will first log into the AWS Management Console and navigated to the EC2 dashboard. From there, I launched a new instance, selected Ubuntu as the operating system, and used the Free Tier eligible settings. For authentication, I chose the key pair login method, utilizing a previously generated key. During the setup, I configured the security group to allow inbound traffic on HTTP (port 80) and SSH (port 22) by selecting “Anywhere” as the source — this ensures that the instance is accessible for both web and SSH connections.
+
+- Once the instance was up and running, I SSH’d into it and cloned the GitHub repository. I also set up a GitHub Actions self-hosted runner on the instance for CI/CD purposes. To securely manage environment variables, I created a folder outside the runner’s directory to store the .env file, and referenced its path within the application. With this setup, every push to the repository triggers an automatic deployment via the runner, enabling seamless and secure updates to the EC2-hosted application.
+
+
 ## Architecture & Design Decisions
 
 ### Microservices Architecture
