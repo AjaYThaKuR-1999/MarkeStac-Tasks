@@ -1,35 +1,106 @@
 # Real-Time Inventory Management System
 
-A microservices-based inventory management system using Node.js, Express, MongoDB, and Socket.IO.
+A microservices-based inventory management system designed for real-time inventory tracking and notifications.
+
+## instructions to set up and run the application locally using Docker
+
+### To set up and run the application locally using Docker, follow the steps below:
+
+- Clone the repository
+Begin by cloning this repository to your local machine.
+
+- Ensure Docker is installed
+Make sure Docker is installed and running on your system. You can download it from Docker's official website.
+
+- Navigate to the relevant task directory
+Use your terminal to navigate to the specific task or project directory you want to run with Docker.
+
+- Build and start the containers
+Run the following command to build the Docker images and start the containers in detached mode:
+
+- docker compose up -d --build
+This command will create the necessary images and spin up the associated containers.
+
+- Shut down the containers
+When you're done, you can stop and remove the running containers using:
+
+docker compose down
 
 ## Architecture & Design Decisions
 
-The system is designed as two independent microservices:
+### Microservices Architecture
+The system is architected as two independent, loosely coupled microservices:
 
-1. **Inventory Service**: Handles CRUD operations for inventory items using MongoDB.
-2. **Notification Service**: Manages real-time updates using Socket.IO.
+1. **Inventory Service**
+   - Primary responsibility: Managing inventory data
+   - Tech Stack: Node.js, Express.js, MongoDB
+   - Features:
+     - RESTful API endpoints for CRUD operations
+     - Data validation and business logic
+     - Connection pooling for MongoDB
+     - Error handling and logging
+   - Design Decisions:
+     - Clean architecture with separation of concerns
+     - Repository pattern for data access
+     - Middleware-based request processing
+     - Environment-based configuration
 
-Key design decisions:
-- Microservices architecture for separation of concerns
-- Containerization with Docker for consistent deployment
-- MongoDB for flexible data storage
+2. **Notification Service**
+   - Primary responsibility: Real-time communication
+   - Tech Stack: Node.js, Express.js, Socket.IO
+   - Features:
+     - WebSocket-based real-time updates
+     - Event-driven architecture
+     - Connection management
+     - Broadcasting capabilities
+   - Design Decisions:
+     - Event-driven communication model
+     - Scalable WebSocket implementation
+     - Room-based subscription system
+     - Graceful error handling for real-time connections
 
-## Local Development Setup (Docker)
+### Infrastructure Design
 
-1. Prerequisites:
-   - Docker & Docker Compose
-   - Git
+1. **Containerization**
+   - Docker-based deployment for consistent environments
+   - Multi-stage builds for optimized images
+   - Environment variable configuration
+   - Volume mounts for persistent storage
 
-2. Setup:
-```bash
-git clone [repository-url]
-cd inventory-management
-docker-compose up -d --build
-```
+2. **Database Design**
+   - MongoDB NoSQL database for flexible schema
+   - Document-based data model
+   - Indexing for performance optimization
+   - Connection pooling for scalability
 
-The services will be available at:
-- Inventory Service: http://localhost:5100
-- Notification Service: http://localhost:5101
+3. **Communication Patterns**
+   - REST API for synchronous operations
+   - WebSocket for real-time updates
+   - Event-driven architecture for loose coupling
+   - Request/response pattern for API calls
+
+### Security Considerations
+- Environment-based configuration
+- Input validation and sanitization
+- Error handling and logging
+- Secure WebSocket connections
+- Rate limiting for API endpoints
+
+### Scalability Features
+- Container-based deployment
+- Independent service scaling
+- Connection pooling
+- Event-driven architecture
+- WebSocket room management
+
+### Error Handling & Monitoring
+- Comprehensive error handling middleware
+- Structured logging
+- Request/response tracking
+- Graceful degradation
+- Resource monitoring
+
+This architecture provides a scalable, maintainable, and efficient solution for real-time inventory management while maintaining separation of concerns and following modern software development best practices.
 
 
 ## AWS EC2 Deployment Guide

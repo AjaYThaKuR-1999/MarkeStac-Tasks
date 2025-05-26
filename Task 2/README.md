@@ -1,5 +1,29 @@
 # Healthcare Management System
 
+## instructions to set up and run the application locally using Docker
+To set up and run the application locally using Docker, follow the steps below:
+
+Clone the repository
+Begin by cloning this repository to your local machine.
+
+Ensure Docker is installed
+Make sure Docker is installed and running on your system. You can download it from Docker's official website.
+
+Navigate to the relevant task directory
+Use your terminal to navigate to the specific task or project directory you want to run with Docker.
+
+Build and start the containers
+Run the following command to build the Docker images and start the containers in detached mode:
+
+docker compose up -d --build
+This command will create the necessary images and spin up the associated containers.
+
+Shut down the containers
+When you're done, you can stop and remove the running containers using:
+
+docker compose down
+
+
 ## HIPAA Compliance Overview
 
 This healthcare management system implements several key HIPAA compliance measures to ensure the security and privacy of Protected Health Information (PHI). Here's how HIPAA compliance is ensured:
@@ -32,6 +56,16 @@ This healthcare management system implements several key HIPAA compliance measur
    - Secure configuration management
 
 ## Architecture and Design Decisions
+
+- The task mentioned implementing clinic onboarding, but it did not specify where this process should occur. To address this, I created a third microservice named organisation to handle clinic onboarding functionality.
+
+- For secure data transmission between the client and server, I implemented RSA encryption using the node-rsa package. This automatically encrypts outgoing requests and decrypts incoming ones. To test the workflow locally, you’ll need to temporarily disable the encryption middleware. Comment out the following lines in app.js:
+const { rsaEncryptionMiddleware } = require('./src/middleware/dataEncryption');
+app.use(rsaEncryptionMiddleware);
+
+- The task also required that an agreement be created during clinic onboarding. To fulfill this, I created a dummy admin and generated an agreement between the admin and the clinic during the onboarding process.
+
+- HL7 schemas can include a wide range of fields. For this implementation, I have selected only the most relevant fields necessary for the current scope of data handling.
 
 This system follows a microservices architecture with three main services:
 
